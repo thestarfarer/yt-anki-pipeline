@@ -1,0 +1,15 @@
+# Core
+torch>=2.0.0
+numpy
+
+# VAD
+# silero-vad is loaded via torch.hub, no pip install needed
+
+# API
+google-genai>=1.0.0
+
+# Deck building
+genanki>=0.13.0
+
+# Audio processing (usually system package, pip fallback)
+# pydub>=0.25.0
